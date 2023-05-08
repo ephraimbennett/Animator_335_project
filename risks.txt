@@ -1,0 +1,16 @@
+risks:
+
+MachineFactory, Machine, MachineSystemFactory, MachineSystemActual -> the way we toggle through machines works for now
+but is definitely inadequate as we connect to CanadianExperience and are toggling through user generated
+options. *fixed;
+
+playing back to back notes is weird right now. *fixed;
+
+fix some drawing stuff and standardize constant usage in machine factory *fixed;
+
+connect the cymbal tube in machine 2 correctly *fixed;
+
+there is a weird bug where at the end of the card everything just starts playing. Probably has something to do with
+the average brightness so need to tell card reader when the card is finished being read. *fixed;
+
+cymbal shaking glitches sometimes
